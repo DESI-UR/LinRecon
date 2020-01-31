@@ -4,7 +4,7 @@ from nbodykit.lab import *
 from scipy import interpolate
 import dask.array as da
 from scipy.ndimage import gaussian_filter
-from recon_functions import *
+from recon_toolkit import *
 
 # Cosmology, files, and parameters needed for reconstruction
 cosmo = cosmology.Cosmology(h=0.674).match(Omega0_m=0.315)
